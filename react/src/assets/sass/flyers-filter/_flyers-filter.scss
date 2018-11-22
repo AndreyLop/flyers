@@ -1,0 +1,129 @@
+.flyers-filter {
+    background-color: #fff;
+    margin-bottom: 45px;
+}
+.flyers-filter__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+}
+.flyers-filter__types {
+    width: 45%;
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    li {
+        transition: color 0.3s;
+        position: relative;
+        &::after {
+            content: '';
+            left: 0;
+            top: 19px;
+            position: absolute;
+            display: inline-block;
+            width: 0;
+            height: 1px;
+            background-color: $blue;
+            transition: all 0.5s;
+        }
+        &:hover {
+            cursor: pointer;
+            color: $blue;
+        }
+        &.active {
+            color: $blue;
+            &::after {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.flyers-filter__input {
+    height: 22px;
+    width: 174px;
+    padding-left: 12px;
+}
+.sort-by {
+    display: inline-block;
+    position: relative;
+}
+.sort-by__btn {
+    height: 22px;
+    width: 96px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: $blue;
+    color: #fff;
+    margin-left: 10px;
+    padding-left: 20px;
+    background-size: 6px 11px;
+    background-image: url('./assets/img/flyers/elevator.png');
+    background-repeat: no-repeat;
+    background-position: 10px 50%;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.flyers-filter__sort {
+    background-color: #fff;
+    position: absolute;
+    min-width: 175px;
+    padding: 24px 21px 20px 17px;
+    top: 30px;
+    right: 0;
+    z-index: 1;
+    box-shadow: 4px 6px 5px 0px rgba(1,1,1,0.1), -4px 0px 5px 0px rgba(1,1,1,0.1);
+
+    li {
+        margin-bottom: 8px;
+        transition: color 0.3s;
+        &::after {
+            content: '';
+            display: block;
+            height: 1px;
+            width: 100%;
+            background-color: $greyblue;
+            margin-top: 8px;
+        }
+        &:last-child {
+            margin-bottom: 0px;
+            &::after {
+                content: none;
+            }
+        }
+        &:hover {
+            cursor: pointer;
+            color: $blue
+        }
+    }
+}
+
+.flyers-filter__sort_opened {
+    display: block;
+}
+.flyers-filter__sort_closed {
+    display: none;
+}
+
+.soty-by__sort-text {
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.sort-by__delete-sort {
+    display: inline-block;
+    margin-left: 6px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.sort-by__active {
+    color: $blue;
+}

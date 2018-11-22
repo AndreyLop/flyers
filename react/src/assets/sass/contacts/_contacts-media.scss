@@ -1,0 +1,16 @@
+@media screen and (max-width: 767px) {
+    .contacts__address {
+        flex-direction: column;
+        max-width: 310px;
+    }
+    .contacts__address-item {
+        width: 100%;
+        text-align: right;
+    }
+    .contacts__address-icon {
+        margin: 15px 15px 0 0;
+    }
+    .contacts__mobile-line {
+        display: block;
+    }
+}

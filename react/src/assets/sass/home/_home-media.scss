@@ -1,0 +1,128 @@
+@media screen and (max-width: 1200px) {
+    .home__top-carousel-item {
+        padding: 0 35px;
+        align-items: center;
+    }
+    .home__top-carousel-image {
+        max-width: 50%;
+    }
+    .home__top-carousel-text {
+        max-width: 320px;
+    }
+    // sample of our temapltes 
+    .home__bottom-carousel-item {
+        padding: 0 35px;
+        
+    }
+    .home__sample {
+        .slick-next {
+            right: -5px;
+        }
+        .slick-prev {
+            left: -5px;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+
+@media screen and (max-width: 767px) {
+    .header {
+        flex-direction: column;
+        height: 80px;
+        padding: 9px;
+    }
+    //Carousel
+    .home__top-carousel-item {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .home__top-carousel-tagline {
+        display: none;
+    }
+    .home__top-carousel-image,
+    .home__top-carousel-text {
+        max-width: 360px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 30px 0 25px 0;
+    }
+    .home__top-carousel-heading {
+        max-width: none;
+    }
+    .home__call-to-action {
+        margin-top: 40px;
+    }
+    .home__top-carousel {
+        .slick-dots {
+            bottom: 95px;
+        }
+        .slick-arrow {
+            display: none !important;
+        }
+    }
+    // How it works
+    .home__hiw-line {
+        display: none;
+    }
+    .home__hiw-items {
+        .slick-next {
+            right: 10px;
+            top: 33%;
+        }
+        .slick-prev {
+            left: 10px;
+            top: 33%;
+            z-index: 10;
+        }
+    }
+    .home__hiw-white-strip {
+        top: 33%
+    }
+    // sample of our temapltes 
+    .home__sample-heading {
+        font-size: 1rem;
+        margin: 20px 0;
+    }
+    .home__bottom-carousel-item {
+        padding: 0;
+    }
+    .home__sample {
+        position: relative;
+    }
+    .carousel.carousel-slider {
+        position: static;
+    }
+    .home__sample {
+        .slick-arrow {
+            top: -10%;
+        }
+    }
+}
+@media screen and (max-width: 530px) {
+    .home__sample {
+        .slick-arrow {
+            top: -20%;
+        }
+    }
+}
+
+@media screen and (max-width: 359px) {
+    .header__login {
+        text-align: center;
+        span {
+            display: block;
+            margin-bottom: 10px;
+        }
+    }
+    .header {
+        height: auto;
+    }
+    .header__button {
+        margin: 0;
+    }
+    
+}

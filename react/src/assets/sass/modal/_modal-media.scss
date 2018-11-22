@@ -1,0 +1,56 @@
+@media screen and (max-width: 767px) {
+    //choose tempalte modal
+    .templates-modal {
+        padding: 20px;
+        max-width: 350px;
+    }
+    .templates-modal__image {
+        width: auto;
+    }
+    .templates-modal__btn {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .templates-modal__btn_cont {
+        float: none;
+    }
+
+    // step 6
+    .step6-email-modal {
+        width: 400px;
+    }
+    .step-6__modal_warnings {
+        padding: 10px;
+    }
+    .step-6__modal-body {
+        margin-bottom: 10px;
+    }
+    .step-6__modal-controls {
+        display: block;
+    }
+    .step-6__modal-btn {
+        margin-bottom: 10px;
+    }
+    // campaign creation
+    .campaign-modal {
+        padding: 5px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .upload__modal {
+        transform: none;
+        position: static;
+        width: 95%;
+        margin: 0 auto;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    // step 6
+    .step6-email-modal {
+        width: 300px;
+    }
+}

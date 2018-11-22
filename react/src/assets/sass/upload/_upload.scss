@@ -1,0 +1,148 @@
+.upload {
+    background-color: #dcdde1;
+    border-radius: 10px;
+    padding: 34px 33px 30px 25px;
+    display: inline-block;
+    position: relative;
+    color: $greyblue;
+}
+
+.upload__heading {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    &::before {
+        content: '';
+        width: 20px;
+        height: 16px;
+        margin-right: 10px;
+        display: inline-block;
+        background-size: 100%;
+        background-position: center;
+        background-image: url('./assets/img/flyers/landscape-photo.png');
+    }
+}
+
+.unpload__input {
+   opacity: 0;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.upload__result {
+    display: flex;
+    justify-content: center;
+}
+.upload__btn {
+    background-color: $greyblue;
+    position: relative;
+    z-index: 2;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 0 6px 10px;
+    &:hover {
+        cursor: pointer;
+    }
+    &.upload2__btn {
+        background-color: #dcdde1;
+        border-radius: 10px;
+        padding: 9px 15px;
+    }
+}
+
+.upload__image-container {
+    position: relative;
+}
+
+.upload__image {
+    text-align: center;
+    img {
+        max-height: 130px;
+        max-width: 130px;
+    }
+}
+
+.upload__btns {
+    text-align: center;
+    margin-top: 10px;
+}
+.btn_4_upload-delete {
+    margin-left: 10px;
+}
+
+.upload__image-controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input__error_upload {
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+
+.upload2 {
+    .upload {
+        width: 100%;
+    }
+}
+
+.upload__message {
+    font-size: 0.875rem;
+}
+.upload__message_mobile {
+    font-size: 0.875rem;
+    display: none;
+    text-align: center;
+}
+.upload2__result {
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.upload__edit {
+    &>div {
+        margin: 0 auto 10px;
+    }
+}
+
+.upload__btn_2 {
+    position: relative;
+    z-index: 2;
+}
+
+.cropper-bg {
+    border: 1px solid $blue;
+}
+.upload-editor__msg {
+    color: $blue;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+}
+
+.btn_4_upload-editor {
+    margin: 0 5px;
+}
+
+.btn_4_upload-editor-rotate {
+    fill: #fff;
+    width: 94px;
+    height: 27px;
+}
+.upload-editor__btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upload__hidden {
+    display: none;
+}

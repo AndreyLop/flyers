@@ -1,0 +1,386 @@
+.campaign {
+    color: $darkgrey;
+    background-color: #fff;
+}
+.campaign__heading {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.campaign__sub-heading {
+    color: $blue;
+    margin-bottom: 10px;
+}
+
+.campaign__body {
+    padding: 44px 33px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.campaign__order-price {
+    padding: 0px 33px 41px;
+}
+.campaign__label_1 {
+    display: inline-block;
+    margin-bottom: 7px;
+}
+.campaign__label_2 {
+    font-size: 0.875rem;
+}
+.input_campaign {
+    margin-bottom: 6px;
+}
+.campaign__image {
+    width: 31%;
+    img {
+        width: 100%;
+    }
+}
+.campaign__settings {
+    width: 31%;
+}
+.campaign__recipients {
+    width: 33%;
+}
+
+// radio buttons
+.campaign__radio-container {
+    margin-bottom: 10px;
+    
+}
+.campaign__fake-radio {
+    width: 22px;
+    height: 22px;
+    border: 1px solid $blue;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+    &:hover {
+        cursor: pointer;
+    }
+    div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+}
+.campaign__radio {
+    display: none;
+}
+.campaign__radio:checked {
+    &+.campaign__fake-radio {
+        div {
+            background-color: $blue;
+        }
+    }
+}
+.campaign__label_2 {
+    vertical-align: super;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.campaign__datepicker {
+    display: flex;
+    & > div {
+        width: 88%;
+        margin-right: 4px;
+    }
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+#datePicker {
+    width: 100%;
+}
+
+#datePicker {
+    height: 27px;
+    border: 1px solid #dcdde1;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: $darkgrey;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.campaign__datepicker-btn {
+    display: inline-block;
+    height: 27px;
+    width: 38px;
+    border: 1px solid #dcdde1;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('./assets/img/campaign/calendar-icon.png');
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.campaign__payment {
+    margin-top: 20px;
+}
+.campaign__cvv-expires {
+    display: flex;
+    justify-content: space-between;
+    div {
+        width: 30%;
+    }
+}
+.input_campaign_yyyy {
+    margin-top: 23px;
+}
+.campaign__select {
+    margin-bottom: 6px;
+    font-family: "GothamBook", sans-serif;
+    option {
+        color: #626262;
+        font-family: "GothamBook", sans-serif;
+    }
+}
+//Recipients
+.btn_2_campaign {
+    text-transform: uppercase;
+    text-align: center;
+    width: 64px;
+    outline: none;
+}
+.campaign__recipients-subheading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+.campaign__recipients-message {
+    font-size: 0.875rem;
+    padding: 14px 12px;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    color: #949494;
+    line-height: 24px;
+    margin-bottom: 13px;
+}
+
+.campaign__order-summary {
+    margin-top: 24px;
+    margin-bottom: 5px;
+}
+
+.btn_3_campaign-order {
+    line-height: 36px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    width: 170px;
+    margin-top: 15px;
+}
+
+//checkbox tree
+.checkbox-tree {
+    .rct-collapse {
+        display: none;
+    }
+    .rct-node-leaf {
+        margin-left: 20px;
+    }
+}
+
+.campaign-modal__checkbox-tree {
+    border: 1px solid #dcdde1;
+    border-radius: 5px;
+    padding: 13px 5px;
+    height: 130px;
+    overflow-y: scroll;
+    margin-bottom: 15px;
+    input[type="checkbox"] {
+        display: none;
+    }
+    .rct-icon-uncheck {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border-radius: 1px;
+        border: 1px solid #dcdde1;
+        margin-right: 5px;
+    }
+    .rct-icon-check,
+    .rct-icon-half-check {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border-radius: 1px;
+        border: 1px solid #dcdde1;
+        margin-right: 5px;
+        background-color: $blue;
+    }
+}
+
+.campaign__checkbox-tree {
+    overflow-y: scroll;
+    height: 300px;
+
+    .campaign__checkbox-tree-scrollbar {
+    }
+
+    /* width */
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+        background: #fff; 
+    }
+
+    &::-webkit-scrollbar-track-piece {
+        background: #fff;
+        border: 1px solid #e1e1e1;
+        border-radius: 4px;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: #e1e1e1; 
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+    }
+
+
+    .rct-node-parent {
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .rct-node-leaf {
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    input[type="checkbox"] {
+        display: none;
+    }
+    .rct-icon-check {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        position: relative;
+        &::before,
+        &::after {
+            content: '';
+            position: absolute;
+            top: -1px;
+            left: -14px;
+            width: 10px;
+            height: 10px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url('./assets/img/campaign/cancel.png');
+        } 
+        &:hover {
+            &::before,
+            &::after {
+                cursor: pointer;        
+            }
+        }
+    }
+}
+
+
+// campaign report
+.campaign-report {
+    color: $darkgrey;
+}
+.campaign-report__heading {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    font-size: 1.5rem;
+}
+.campaign-report__body {
+    padding: 21px 52px 78px 35px;
+    background-color: #fff;
+}
+
+.campaign-report__body-top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+}
+
+.campaign-report__subject {
+    color: #dbdada;
+    font-size: 0.875rem;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.campaign-report__body-top-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.campaign-report__campaign-name {
+    color: $blue;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-right: 20px;
+}
+
+.campaign-report__transaction-number {
+    color: $blue;
+}
+
+.campaign-report__data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.campaign-report__image {
+    width: 30%;
+    img {
+        width: 100%;
+    }
+}
+
+.campaign-report__numbers {
+    width: 30%;
+    h4 {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+}
+.campaign-report__numbers-text {
+    font-size: 0.875rem;
+    line-height: 24px;
+}
+.campaign-report__h6-sub-heading {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.campaign-report__numbers-numbers {
+    font-size: 1rem;
+    color: $blue;
+}
+
+.campaign-report__distributors {
+    width: 30%;
+    h4 {
+        text-align: center;
+        margin-bottom: 26px;
+    }
+    li {
+        line-height: 24px;
+    }
+}

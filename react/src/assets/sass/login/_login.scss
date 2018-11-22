@@ -1,0 +1,98 @@
+.login__hero{
+    background-color: #f7f7fa;
+    overflow: hidden;
+}
+.login__heading {
+    text-align: center;
+    margin-top: 60px;
+    color: $darkgrey;
+}
+.login__line {
+}
+
+.login__form {
+    overflow: hidden;
+    box-shadow: 
+        inset 0px 4px 2px 0px rgba(226,226,226,1),
+        inset 0px -4px 2px 0px rgba(226,226,226,1);
+}
+
+.login__form-wrapper {
+    max-width: 330px;
+    margin:50px auto 0;
+}
+.label_login {
+    
+}
+.input_login {
+    width: 100%;
+}
+.login__details {
+    font-size: 0.875rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: #4a4a4a;
+}
+
+.login__forgot {
+    font-size:  0.75rem;
+    color: #4a4a4a;
+    float: right;
+    margin-top: 10px;
+}
+
+.login_btn {
+    outline: none;
+    border: none;
+    display: block;
+    margin: 60px auto;
+}
+.login__fast {
+    text-align: center;
+    color: $blue;
+}
+.login__social {
+    max-width: 390px;
+    height: 74px;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7fa;
+    padding: 0 30px;
+}
+
+.login__social-btn {
+    background-size: 23px;
+    border: none;
+    height: 35px;
+    line-height: 35px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding-left: 20px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.login__google {
+    background: url('./assets/img/login/google.png') no-repeat;
+    background-position: 10px 50%;
+    background-color: #fff;
+    color: $darkgrey;
+
+}
+
+.login__facebook {
+    background: url('./assets/img/login/facebook.png') no-repeat;
+    background-position: 10px 50%;
+    background-color: #3f5c94;
+    color: #fff;
+}
+
+.login__account-created {
+    text-align: center;
+    text-transform: uppercase;
+    color: $blue;
+}

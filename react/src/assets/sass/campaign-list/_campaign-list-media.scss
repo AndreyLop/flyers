@@ -1,0 +1,78 @@
+@media screen and (max-width: 1200px) {
+    .campaign-list-item__image {
+        width: 50%;
+    }
+    .campaign-list-item__data {
+        width: 50%;
+        text-align: left;
+        li {
+            display: block;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            &::after {
+                content: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .campaign__table {
+        .campaign__report {
+            display: none;
+        }
+        .campaign__report_mobile {
+            display: inline-block ;
+            width: 15%;
+        }
+        // tbody {
+        //     font-size: 0.625rem;
+        // }
+        th, td {
+            &.campaign__subject {
+                width: 45%;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .campaings-filter__wrapper {
+        flex-direction: column;
+        padding: 0;
+    }
+    .campaings-filter__heading {
+        margin: 0 0 10px 0;
+        padding: 10px 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0px 4px 6px 0px rgba(1, 1, 1, 0.1);
+    }
+    .campaign-list-item {
+        width: 98%;
+        margin: 20px auto;
+        max-width: 400px;
+        padding: 5px;
+    }
+    .btn_2_campaign-list-item {
+        min-width: 140px;
+    }
+    .campaign__campaing-heading {
+        text-align: center;
+        margin: 17px 0;
+    }
+    .campaign__table {
+        tbody {
+            font-size: 0.625rem;
+        }
+        td.flyer__no-campaings {
+            font-size: 0.875rem;
+            height: auto;
+            line-height: 1.5;
+            padding: 20px 40px;
+        }
+    }
+}

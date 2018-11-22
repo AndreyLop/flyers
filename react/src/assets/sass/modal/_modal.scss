@@ -1,0 +1,237 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.88);
+    z-index: 10;
+    overflow-y: auto;
+}
+
+// templates modal
+.templates-modal {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 45px 105px;
+    max-width: 550px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.templates-modal__name {
+    text-align: center;
+    text-transform: uppercase;
+    color: $blue;
+    margin-bottom: 44px;
+}
+.templates-modal__image {
+    width: 340px;
+    margin: 0 auto;
+    img {
+        width: 100%;
+        display: block;
+    }
+}
+
+.templates-modal__btn {
+    display: inline-block;
+    line-height: 36px;
+    width: 146px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 0.875rem;
+    margin-top: 35px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.templates-modal__btn_back {
+    background-color: #b7b7b7;
+}
+.templates-modal__btn_cont {
+    background-color: $blue;
+    float: right;
+}
+
+//Flyer edit/creation step 6 warnings modal
+.step-6__modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    max-width: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.step-6__modal_warnings {
+    padding: 54px 30px 64px;
+}
+
+.step-6__modal-heading {
+    text-transform: uppercase;
+    color: $blue;
+    margin-bottom: 37px;
+}
+
+
+.step-6__modal-flyer-name {
+    color: $blue;
+}
+
+.step-6__modal-btn {
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.step-6__modal-body {
+    line-height: 24px;
+    margin-bottom: 35px;
+}
+.step-6__modal-controls {
+    display: flex;
+    justify-content: space-between;
+}
+//Flyer step 6 finalziing modal 
+.step-6__modal_finalization {
+    padding: 54px 5px 64px;
+}
+.step-6__modal_loading {
+    width: 140px;
+    margin: 0 auto 20px auto;
+}
+
+//Flyer step 6 email modal
+
+.step6-email-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 95vh;
+    img {
+        height: 100%;
+    }
+}
+
+// campaign modal
+
+.campaign-modal {
+    background-color: #fff;
+    width: 450px;
+    padding: 37px 35px 44px;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.campaign-modal__heading {
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.campaign-modal__body {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.campaign-map-svg {
+    fill: #fff;
+    stroke: $blue;
+    stroke-width: 2;
+
+    .campaign-map_active-state{
+        fill: $blue;
+    }
+}
+
+.btn_3_campaign-modal{
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+
+.campaign-modal__controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recently-made-flyers-carousel-modal {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    img {
+        height: 90vh;
+        width: auto;
+    }
+}
+
+// Profile change password modal
+
+.profile-change-password-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 325px;
+    background-color: #fff;
+    padding: 25px 24px 38px;
+    border-radius: 10px;
+}
+
+.profile-modal__heading {
+    text-align: center;
+    margin-bottom: 34px;
+    color: $blue;
+}
+
+.label_profile-change-password-modal {
+    color: $darkgrey;
+    margin-bottom: 12px;
+}
+
+.profile-modal__btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.btn_3_profile-modal {
+    border: none;
+    border-radius: 5px;
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.btn_3_profile-modal_cancel {
+    background-color: $lightgrey;
+    color: $darkgrey;
+}
+
+.profile-modal__change-success {
+    text-align: center;
+    color: $blue;
+}
+
+// upload edit image modal
+.upload__modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #b7b7b7;
+    border-radius: 10px;
+    padding: 20px;
+} 

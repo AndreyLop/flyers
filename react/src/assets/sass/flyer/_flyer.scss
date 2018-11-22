@@ -1,0 +1,423 @@
+.new-flyer {
+    overflow: hidden;
+    color: $darkgrey;
+}
+
+.new-flyer__heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-top: 36px;
+    margin-bottom: 29px;
+}
+
+.templates__choose {
+    background-color: #fff;
+    padding: 13px 0 9px;
+}
+
+.templates__list-heading {
+    text-transform: uppercase;
+    color: $blue;
+    margin-bottom: 20px;
+}
+
+.templates__list-wrapper {
+    background-color: #fff;
+    padding: 26px 70px 73px 70px;
+    margin-top: 45px;
+}
+
+.templates__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.templates__list-item-wrapper {
+    max-width: 245px;
+    margin: 0 auto;
+}
+.templates__list-item {
+    width: 24%;
+    img {
+        width: 100%;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
+// step 1
+.step-1__wrapper {
+    padding: 60px 50px 10px 46px;
+    background-color: #fff;
+    &::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+.step-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.step-1__uploads {
+    .upload {
+        width: 48%;
+    }
+}
+.step-1__main-image {
+    width: 32%;
+    img {
+        width: 100%;
+    }
+}
+.step-1__uploads {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    height: 100%;
+    .upload {
+        margin: 0 0 10px 10px;
+    }
+    
+}
+.step-1__cont-btn {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+// step 2
+.step-2__wrapper {
+    background-color: #fff;
+}
+.step-2__inputs {
+    padding: 60px 108px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.step-2__inputs_left,
+.step-2__inputs_right {
+    width: 46%;
+}
+
+.input_step-2-adress-line-1 {
+    margin-bottom: 14px;
+}
+.input_state-step-2 {
+    font-family: "GothamBook", sans-serif;
+}
+.step-2__empty {
+    margin-bottom: 25px;
+    font-size: 0.875rem;
+    color: $greyblue;
+}
+
+.new-flyer__prev-next-btns {
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+//step 3 
+.step-3__wrapper {
+    background-color: #fff;
+}
+
+.step-3 {
+    padding: 61px 110px 20px;
+}
+
+.step-3__message {
+    font-size: 0.875rem;
+    color: $greyblue;
+}
+.step-3__message_headline {
+    margin-bottom: 10px;
+}
+.step-3__message_content {
+    margin-top: 25px;
+    line-height: 1.5;
+}
+.step-3__label {
+    margin-top: 10px;
+}
+.step-3__content-input {
+    height: 150px;
+}
+
+// step 4
+.step-4_wrapper {
+    background-color: #fff;
+}
+.step-4 {
+    padding: 33px 84px 43px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.step-4__realtor-photo {
+    width: 36%;
+}
+.step-4__realtor-info {
+    width: 50%;
+}
+.label_step-4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+// step 5
+.step-5_wrapper {
+    background-color: #fff;
+}
+.step-5 {
+    padding: 50px 24px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.label_step-5 {
+    margin: 10px 0;
+}
+.step-5__company-photo {
+    width: 30%;
+}
+
+.step-5__company-info {
+    width: 65%;
+
+    display: flex;
+    justify-content: space-between;
+}
+.step-5__company-info-left {
+    width: 60%;
+}
+
+.step-5__company-info-right {
+    width: 37%;
+}
+
+.input_step-5-address-1 {
+    margin-bottom: 12px;
+}
+// step 6
+.step-6_wrapper {
+    background-color: #fff;
+}
+.step-6 {
+    padding: 66px 40px 45px 63px;
+}
+.step-6__message {
+    color: $greyblue;
+    font-size: 0.875rem;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    p {
+        line-height: 1.25rem;
+    }
+}
+.input_step-6 {
+    width: 50%;
+}
+
+.step-6__preview {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.step-6__save-btn {
+    background-color: $blue;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    height: 27px;
+    margin-left: 5px;
+}
+
+.step-6__loading {
+    margin-right: 20px;
+}
+
+.step-6__result {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.step-6__flyer-image {
+    width: 30%;
+    img {
+        width: 100%;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
+.step-6__preivew-click-msg {
+    max-width: 360px;
+    font-size: 0.875rem;
+    color: $greyblue;
+    line-height: 24px;
+}
+
+.step-6__errors {
+    background-color: #dcdde1;
+    border-radius: 10px;
+    padding: 15px 35px;
+    font-size: 0.875rem;
+    color: $greyblue;
+    margin-bottom: 40px;
+
+    table {
+        width: 100%;
+    }
+    tr {
+        line-height: 30px;
+        border-bottom: 1px solid $greyblue;
+    }
+    
+    tr:last-child {
+        border: none;
+    }
+    td {
+        width: 33%;
+    }
+    td:nth-child(2) {
+        text-align: center;
+    }
+    td:nth-child(3) {
+        text-align: right;
+        color: $blue;
+    }
+}
+
+.step-6__errors-message {
+    color: $red;
+    line-height: 24px;
+}
+
+.step-6__warnings {
+    .step-6__errors-message {
+        color: $yellow;
+    }
+}
+
+.step-6__errors-container {
+    width: 63%;
+}
+
+// ready flyer page.
+.ready-flyer {
+    background-color: #fff;
+    padding: 35px 42px 38px 45px;
+}
+.ready-flyer__heading {
+    color: $blue;
+    margin-bottom: 18px;
+}
+.ready-flyer__dates {
+    display: flex;
+    justify-content: space-between;
+    max-width: 480px;
+    margin-bottom: 26px;
+    span {
+        color: $blue;
+    }
+}
+
+
+.ready-flyer__image {
+    width: 30%;
+    float: left;
+    img {
+        width: 100%;
+    }
+}
+
+.ready-flyer__controls {
+    width: 69%;
+    float: right
+}
+.ready-flyer__body {
+    .campaign__data {
+        float: left;
+        width: 60%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+.ready-flyer__btn {
+    width: 178px;
+    margin-bottom: 10px;
+}
+
+
+.ready-flyer__buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+//recently made flyers carousel
+.recently-made-flyers-carousel {
+    max-width: 1130px;
+    margin: 0 auto;
+}
+.recently-made-flyers-carousel__heading {
+    margin-bottom: 15px;
+}
+.recently-made-flyers-carousel__message {
+    margin-bottom: 15px;
+    color: $blue;
+}
+.recently-made-flyers-carousel__item {
+    max-width: 200px;
+    display: block !important;
+    margin: 0 auto;
+    img {
+        width: 100%;
+    }
+    &> div {
+    }
+}
+
+.btn_3_recently-made-flyers-carousel {
+    border: none;
+    width: 100%;
+    min-width: auto;
+}
+
+.recently-made-flyers-carousel__image {
+    position: relative;
+    margin-bottom: 20px;
+    max-height: 220px;
+    overflow: hidden;
+}
+
+.recently-made-flyers-carousel__dark-overlay {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url('./assets/img/flyers/magnifying-glass.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: opacity 0.5s;
+    &:hover {
+        cursor: pointer;
+        opacity: 1;
+    }
+}

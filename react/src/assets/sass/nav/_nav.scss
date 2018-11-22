@@ -1,0 +1,30 @@
+.nav {
+    height: 85px;
+    box-shadow: inset 0px 4px 6px 0px rgba(1,1,1,0.1);
+    background-color: #fff;
+}
+.nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.nav__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 354px;
+}
+.nav__btn {
+    width: 168px;
+    text-transform: uppercase;
+    background-color: $lightgrey;
+    &.nav__btn_active {
+        background-color: $blue;
+    }
+}
+.nav_text {
+    text-align: right;
+    color: rgba($darkgrey, 0.63);
+    font-size: 0.875rem;
+}

@@ -1,0 +1,27 @@
+@media screen and (max-width: 1024px) {
+    .progress__line {
+        max-width: 81%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .progress__line {
+        display: none;
+    }
+    .progress-step {
+        display: none;
+        &::after {
+            content: none;
+        }
+    }
+    .progress-step_active {
+        display: block;
+    }
+    .progress {
+        ul {
+            justify-content: center;
+        }
+    }
+    .progress-step {
+        width: auto;
+    }
+}

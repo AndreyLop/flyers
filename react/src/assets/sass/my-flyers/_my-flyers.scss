@@ -1,0 +1,21 @@
+.my-flyers {
+    background-color: #f7f7fa;
+    h1 {
+        font-size:  1.5rem;
+        text-transform: uppercase;
+        color: $darkgrey;
+    }
+}
+
+.my-flyers__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 365px;
+    height: 82px;
+    margin: 0 auto;
+}
+.create-flyer_btn {
+    width: 206px;
+    text-transform: uppercase;
+}

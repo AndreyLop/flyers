@@ -1,0 +1,37 @@
+.contacts {
+    background-color: #f7f7fa;
+    overflow: hidden;
+}
+.contacts__heading {
+    margin-top: 40px;
+    text-align: center;
+}
+.contacts__line {
+    margin: 25px auto;
+}
+.contacts__address {
+    max-width: 600px;
+    margin: 0 auto 35px;
+    box-shadow: 4px 4px 9px 0px rgba(226,226,226,1), -4px -4px 9px 0px rgba(226,226,226,1);
+    border-radius: 5px;
+    padding: 25px 20px 20px 20px;
+
+    background-color: #fff;
+
+    display: flex;
+}
+.contacts__address-item {
+    width: 50%;
+    line-height: 24px;
+}
+.contacts__address-icon {
+    float: left;
+    margin: 15px 30px 0px 0px;
+}
+.contacts__mobile-line {
+    display: none;
+    width: 195px;
+    height: 1px;
+    background-color: #b7b7b7;
+    margin: 28px auto;
+}

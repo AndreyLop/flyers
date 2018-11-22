@@ -1,0 +1,90 @@
+.header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input_header {
+    height: 25px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-left: 10px;
+    max-width: 160px;
+    vertical-align: top;
+
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        font-family: 'Roboto';
+        font-size: 0.875rem;
+    }
+    &::-moz-placeholder { /* Firefox 19+ */
+        font-family: 'Roboto';
+        font-size: 0.875rem;
+    }
+    &:-ms-input-placeholder { /* IE 10+ */
+        font-family: 'Roboto';
+        font-size: 0.875rem;
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+        font-family: 'Roboto';
+        font-size: 0.875rem;
+    }
+
+}
+
+.header__button {
+    height: 25px;
+    width: 106px;
+    outline: none;
+    background-color: $blue;
+    color: #fff;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-right: 17px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.header__profile-name {
+    color: $blue;
+    margin-right: 10px;
+}
+.header__logout {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.header__logout-arrow {
+    margin-left: 5px;
+    &::after {
+        content: '\2192';
+        font-size: 2rem;
+        vertical-align: sub;
+        line-height: 0px;
+    }
+}
+
+.header__close-login {
+    vertical-align: middle;
+}
+
+.header__login {
+    min-width: 340px;
+    text-align: right;
+}
+
+.header__login-btn {
+    display: inline-block;
+    color: #fff;
+    margin: 0 16px;
+    background-color: $blue;
+    border-radius: 5px;
+    width: 78px;
+    line-height: 25px;
+    text-align: center;
+    &:hover {
+        cursor: pointer;
+    }
+}

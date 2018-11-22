@@ -1,0 +1,32 @@
+@media screen and (max-width: 1200px) {
+    .flyer-recent__controls {
+        width: 35%;
+    }
+    .flyer-recent__campaings {
+        width: 59%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .flyer-recent {
+        padding: 4px;
+    }
+    .flyer-recent__image-btns {
+        justify-content: space-around;
+    }
+    .flyer-recent__controls {
+        width: 44%;
+    }
+    .flyer-recent__campaings {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .flyer-recent__controls {
+        width: 100%;
+    }
+    .flyer-recent__campaings {
+        width: 100%;
+    }
+}

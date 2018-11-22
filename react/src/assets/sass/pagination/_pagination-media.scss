@@ -1,0 +1,21 @@
+@media screen and (max-width: 767px) {
+    .pagination {
+        .previous,
+        .next {
+            float: none;
+            position: absolute;
+            top: 30px;
+        }
+    }
+    ul {
+        position: relative;
+    }
+    .previous {
+        left: 50%;
+        transform: translateX(-120%);
+    }
+    .next {
+        right: 50%;
+        transform: translateX(120%);
+    }
+}

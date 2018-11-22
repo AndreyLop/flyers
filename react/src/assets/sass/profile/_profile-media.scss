@@ -1,0 +1,71 @@
+@media screen and (max-width: 1024px) {
+    .profile__phone-and-fax {
+        display: block;
+    }
+    .profile__state-and-zip {
+        display: block;
+    }
+    .profile__input_zip {
+        width: 100%;
+    }
+    .profile__input_state {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .profile__content {
+        padding: 5px;
+    }
+    .label_profile {
+        margin-top: 10px;
+    }
+    .profile__info {
+        display: block;
+        width: 98%;
+        margin: 0 auto;
+        &::after {
+            content: none;
+        }
+    }
+    .profie__sub-heading_desktop {
+        display: none;
+    }
+    .profie__sub-heading_mobile {
+        display: block;
+        text-align: center;
+    }
+    .profile__company-info {
+        display: block;
+        width: 98%;
+        margin: 0 auto;
+    }
+    .profile__content_wrapper {
+        display: block;
+    }
+    .profile__info-inputs,
+    .profile__comapny-inputs {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .profile__heading-message {
+        margin-bottom: 10px;
+    }
+    .profile__change-password_wrapper {
+        text-align: center;
+    }
+    .profile__change-password {
+        float: none;
+        text-align: center;
+        display: inline-block;
+    }
+    .profile__info-left {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .profile__image-upload {
+        width: 150px;
+    }
+}

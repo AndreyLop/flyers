@@ -1,0 +1,208 @@
+.profile {
+    background-color: #f7f7fa;
+    color: $darkgrey;
+    overflow: hidden;
+}
+
+.profile__heading {
+    text-align: center;
+    h1 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        margin: 30px 0px 21px;
+    }
+}
+
+.profile__heading-message {
+    color: $blue;
+    margin-bottom: 27px;
+}
+
+.profie__sub-heading {
+    color: $blue;
+    margin-bottom: 18px;
+}
+
+.profie__sub-heading_mobile {
+    display: none;
+}
+
+.profile__message {
+    padding: 14px 8px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    color: #949494;
+    line-height: 24px;
+}
+
+.profile__content {
+    background-color: #fff;
+    padding: 17px 29px 37px 26px;
+    
+}
+
+.profile__content_wrapper {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.profile__change-password_wrapper {
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+.profile__change-password {
+    float: right;
+    margin-bottom: 14px;
+    color: $blue;
+    border-bottom: 1px solid $blue;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+
+.profile__info {
+    width: 45%;
+    position: relative;
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 1px;
+        height: 91%;
+        top: 20px;
+        right: -20px;
+        background-color: $lightgrey;
+    }
+}
+.profile__company-info {
+    width: 51%;
+}
+
+.profile__input {
+    color: #949494;
+
+
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: #dfdfdf;
+    }
+    &::-moz-placeholder { /* Firefox 19+ */
+        color: #dfdfdf;
+    }
+    &:-ms-input-placeholder { /* IE 10+ */
+        color: #dfdfdf;
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+        color: #dfdfdf;
+    }
+
+}
+
+.profile__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile__info-left {
+    width: 160px;
+    margin-right: 10px;
+}
+
+.profile__dates {
+    font-size: 0.875rem;
+    li {
+        margin-bottom: 10px;
+    }
+}
+
+.profile__dates_date {
+    color: #949494;
+}
+
+.profile__info-inputs {
+    width: 65%;
+}
+
+.profile__company-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile__comapny-inputs {
+    width: 69%;
+}
+
+.label_profile {
+    color: $darkgrey;
+    margin-bottom: 7px;
+}
+
+.profile__phone-and-fax {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile__state-and-zip {
+    display: flex;
+    justify-content: space-between;
+}
+.profile__input_state {
+    width: 65%;
+}
+.profile__input_zip {
+    width: 30%;
+}
+
+.btn_2_profile {
+    min-width: 170px;
+    text-transform: uppercase;
+    display: block;
+    margin: 30px auto 0 auto;
+}
+
+// Profile image upload
+.profile__image-upload {
+    img {
+        width: 100%;
+    }
+}
+
+.profile__image-upload_label {
+    display: inline-block;
+    color: $blue;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.profile__image-upload_input {
+    display: none;
+}
+
+.profile__image-upload_image {
+    height: 190px;
+    position: relative;
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+
+.profile__updated {
+    text-align: center;
+    color: $blue;
+    text-transform: uppercase;
+    font-size: 1rem;
+    transition: opacity .3s ease-in;
+}

@@ -1,0 +1,10 @@
+@media screen and (max-width: 767px) {
+    .login__heading {
+        margin-top: 24px;
+    }
+    .login__social {
+        flex-direction: column;
+        min-height: 90px;
+        margin-top: 25px;
+    }
+}

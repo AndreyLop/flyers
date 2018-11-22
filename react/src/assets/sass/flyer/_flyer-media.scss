@@ -1,0 +1,242 @@
+@media screen and (max-width: 1200px) {
+    //recently made flyers carousel
+    .recently-made-flyers-carousel {
+        .slick-next {
+            right: 0;
+        }
+        .slick-prev {
+            left: 0;
+        }
+    }
+    // step 1
+    .step-1__wrapper {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    // choose tempalte
+    .templates__list-item {
+        width: 30%;
+    }
+
+    // step 5 
+    .step-5__company-info {
+        display: block;
+    }
+    .step-5__company-info-left {
+        width: 100%;
+    }
+    .step-5__company-info-right {
+        width: 100%;
+    }
+    // step 2
+    .step-2__inputs {
+        padding: 10px;
+    }
+    // step 1
+    .step-1__main-image {
+        width: 48%;
+    }
+    .step-1__uploads {
+        width: 48%;
+        display: block;
+    }
+    .step-1__uploads {
+        .upload {
+            width: 100%;
+            margin: 0 0 10px 0;
+        }
+    }
+    // step 4 
+    .step-4 {
+        padding: 50px 24px 20px;
+    }
+
+    // ready flyer
+    .ready-flyer__body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        .campaign__data {
+            float: none;
+            width: 90%;
+            margin: 0px auto 20px;
+        }
+        .campaign__campaing-heading {
+            text-align: center;
+        }
+    }
+    .ready-flyer__image {
+        float: none;
+        width: 40%;
+    }
+    .ready-flyer__controls {
+        float: none;
+        width: 50%;
+    }
+
+    // step 6 
+    .step-6__result {
+        display: block;
+    } 
+    .step-6__flyer-image {
+        width: 100%;
+        max-width: 310px;
+        margin: 0 auto 10px;
+    }
+    .step-6__errors-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    // choose tempalte
+    .templates__list-item {
+        width: 48%;
+    }
+    .templates__list-wrapper {
+        padding: 15px;
+        margin-top: 20px;
+    }
+
+    // step 5 
+    .step-5 {
+        padding: 15px;
+        display: block;
+    }
+    .step-5__company-photo,
+    .step-5__company-info {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    // prev next btns
+    .new-flyer__prev-next-btns {
+        padding: 0 0 40px 0;
+        max-width: 310px;
+        margin: 0 auto;
+    }
+    // step 3
+    .step-3 {
+        padding: 5px;
+    }
+    // step 2
+    .step-2__inputs {
+        padding: 5px;
+        display: block;
+        margin-bottom: 15px;
+    }
+    .step-2__inputs_left,
+    .step-2__inputs_right {
+        width: 98%;
+        margin: 0 auto;
+    }
+    // step 1
+    .step-1__wrapper {
+        padding: 5px;
+    }
+    .step-1 {
+        display: block;
+    }
+    .step-1__main-image,
+    .step-1__uploads {
+        width: 98%;
+        margin: 0 auto;
+        max-width: 350px;
+    }
+    .step-1__uploads {
+        .upload {
+            margin: 30px 0 0 0;
+        }
+    }
+    .step-1__cont-btn {
+        justify-content: center;
+    }
+    // ready flyer
+    .ready-flyer {
+        padding: 5px;
+        .campaign__table {
+            tbody {
+                height: auto;;
+            }
+            td.flyer__no-campaings {
+                margin-top: 10px;
+                padding: 10px;
+            }
+        }
+    }
+    .ready-flyer__heading {
+        text-align: center;
+        line-height: 1.5;
+    }
+    .ready-flyer__dates {
+        display: block;
+        width: 200px;
+        line-height: 1.5;
+        margin: 0 auto 20px;
+    }
+    .ready-flyer__image {
+        width: 40%;
+    }
+    .ready-flyer__controls {
+        width: 58%;
+    }
+    // step 4 
+    .step-4 {
+        display: block;
+    }
+    .step-4__realtor-photo {
+        width: 100%;
+    }
+    .step-4__realtor-info {
+        width: 100%;
+    }
+    // recently made flyers carousel
+    .recently-made-flyers-carousel__message {
+        line-height: 1.5;
+    }
+    // step 6 
+    .step-6 {
+        padding: 24px 12px 20px;
+    }
+    .label_step-6 {
+        text-align: center;
+        margin-top: 0;
+    }
+    .input_step-6 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .step-6__preview {
+        display: block;
+    }
+    .step-6__errors {
+        padding: 5px;
+        tr {
+            line-height: 1.5;
+        }
+        td {
+            &.step-6__errors-field-name {
+                width: 25%;
+            }
+            &.step-6__errors-error-text {
+                width: 50%;
+            }
+            &.step-6__errors-link {
+                width: 25%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 590px) {
+    // choose tempalte
+    .templates__list-item {
+        margin-top: 20px;
+        width: 98%;
+    }
+    .templates__choose {
+        text-align: center;
+    }
+}

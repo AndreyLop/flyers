@@ -1,0 +1,228 @@
+@include font-face("GothamBook", "assets/fonts/Gotham-Book/Gotham-Book");
+@include font-face("Roboto", "assets/fonts/Roboto/Roboto-Thin", "thin");
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "GothamBook", sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+input, select {
+    outline: none;
+}
+.wrapper {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.heading_1 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    line-height: 24px;
+}
+.label {
+    display: block;
+    color: $blue;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.input {
+    height: 27px;
+    border: 1px solid #dcdde1;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: #626262;
+    width: 100%;
+}
+
+// Logo styles
+.logo {
+    color: $darkgrey;
+    position: relative;
+}
+.logo__iq7flyers {
+    font-size: 1.875rem;
+    color: $blue;
+}
+.logo__iq_7flyers {
+    font-size: 0.875rem;
+    position: absolute;
+    top: -10px;
+    left: 34px;
+}
+.logo__iq7_flyers {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.line {
+    height: 1px;
+    background-color: #b7b7b7;
+    width: 40%;
+    max-width: 385px;
+    margin: 20px auto;
+}
+
+.btn_1 {
+    display: inline-block;
+    text-transform: uppercase;
+    box-shadow: 6px 6px 5px 0px rgba(1,1,1,0.1);
+    color: #fff;
+    background-color: $blue;
+    text-align: center;
+    font-size:  1.125rem;
+    width: 100%;
+    max-width: 290px;
+    line-height: 60px;
+    border-radius: 10px;
+    transition: all 0.2s;
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        box-shadow: 0 0 11px rgba(33,33,33, 0.5); 
+    }
+}
+
+.btn_2 {
+    display: inline-block;
+    color: #fff;
+    background-color: $blue;
+    line-height: 33px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    transition: all 0.2s;
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        box-shadow: 0 0 11px rgba(33,33,33, 0.5); 
+    }
+}
+
+.btn_3 {
+    display: inline-block;
+    color: #fff;
+    background-color: $blue;
+    line-height: 40px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    min-width: 130px;
+    text-align: center;
+    transition: all 0.2s;
+
+    &.btn_3_inactive {
+        background-color: #dcdde1;
+    }
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        box-shadow: 0 0 11px rgba(33,33,33, 0.5); 
+    }
+}
+
+.btn_3-prev {
+    &::before {
+        content: '\2190';
+        font-size: 2rem;
+        vertical-align: sub;
+        line-height: 0px;
+    }
+}
+
+.btn_3-cont {
+    &::after {
+        content: '\2192';
+        font-size: 2rem;
+        vertical-align: sub;
+        line-height: 0px;
+    }
+}
+
+.btn_4 {
+    min-width: 94px;
+    line-height: 25px;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    background-color: $blue;
+    color: #fff;
+    border: none;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.app-container {
+    // height: 100vh;
+    min-height: calc(100vh + 1px);
+    display: flex;
+    flex-direction: column;
+}
+
+.root-page-content {
+    flex: 1;
+    padding-bottom: 80px;
+    background-color: #f7f7fa;
+}
+
+.input__error {
+    color: $red;
+    font-size: 0.875rem;
+    margin-top: 5px;
+}
+
+.authorized {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 100px;
+}
+
+.authorized__link {
+    color: $blue;
+}
+
+.no-content {
+    text-align: center;
+}
+
+.not-found__link {
+    color: $blue;
+}
+
+// slick carousel arrows
+.slick-slide {
+    margin: 0 auto;
+
+}
+.slick-track {
+    display: flex;
+    justify-content: space-between;
+}
+.slick-arrow {
+    z-index: 2;
+    fill: $blue;
+    &.slick-disabled {
+        fill: $greyblue;
+    }
+}
+
+.slick-prev, .slick-next {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    width: 30px !important;
+    height: 30px !important;
+    &::before {
+        content: none !important;
+    }
+}
+
+
+
+    

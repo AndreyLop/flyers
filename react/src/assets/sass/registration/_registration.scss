@@ -1,0 +1,51 @@
+.registration__hero {
+    background-color: #f7f7fa;
+    overflow: hidden;
+}
+.registration__form {
+    overflow: hidden;
+    box-shadow: 
+    inset 0px 4px 2px 0px rgba(226,226,226,1),
+    inset 0px -4px 2px 0px rgba(226,226,226,1);
+}
+.registration__form-container {
+    max-width: 331px;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+
+.label_registration {
+    color: $blue;
+    margin: 16px 0;
+}
+
+.input_registration {
+    width: 100%;
+    color: #626262;
+    padding-left: 10px;
+}
+
+.input_state {
+    background-color: #fff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+
+    background-image: url('./assets/img/common/elevator_dark.png');
+    background-repeat: no-repeat;
+    background-size: 8px 13px;
+    background-position: 97% 50%;
+
+    letter-spacing: 0.7px;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.875rem;
+
+    option {
+        color: #626262;
+        letter-spacing: 0.7px;
+        font-family: "Roboto", sans-serif;
+        font-size: 0.875rem;
+    }
+
+}

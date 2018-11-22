@@ -1,0 +1,25 @@
+@media screen and (max-width: 767px) {
+    .upload__message {
+        display: none;
+    }
+    .upload__message_mobile {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .upload-editor__btn {
+        flex-wrap: wrap;
+    }
+    .btn_4_upload-editor {
+        width: 40%;
+        margin: 5px 0;
+    }
+    // .upload__edit {
+    //     &>div{
+    //         transform: scale(0.5);
+    //     }
+    // }
+    .cropper-container {
+    }
+}

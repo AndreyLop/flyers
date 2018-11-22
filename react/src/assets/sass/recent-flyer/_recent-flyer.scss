@@ -1,0 +1,53 @@
+.flyer-recent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 24px 37px 34px;
+    color: $darkgrey;
+    margin-bottom: 35px;
+}
+
+.flyer-recent__controls {
+    width: 30%;
+}
+
+.flyer-recent__name {
+    text-transform: uppercase;
+    color: $blue;
+}
+
+.flyer-recent__creation-date {
+    font-size: 0.875rem;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.flyer-recent__image-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flyer-recent__image {
+    max-width: 140px;
+    img {
+        width: 100%;
+    }
+}
+
+.flyer-recent__buttons {
+    padding: 10px 0px 6px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flyer-recent__btn {
+    display: block;
+    width: 176px;
+    margin-bottom: 10px;
+}
+
+.flyer-recent__campaings {
+    width: 65%;
+}

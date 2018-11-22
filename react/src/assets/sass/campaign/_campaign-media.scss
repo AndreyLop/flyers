@@ -1,0 +1,87 @@
+@media screen and (max-width: 1024px) {
+    //campaign report
+    .campaign-report__numbers {
+        h4 {
+            margin-bottom: 20px;
+        }
+    }
+    // cmapign creation (email flyer)
+
+}
+
+@media screen and (max-width: 767px) {
+    //campaign report
+    .campaign-report__body {
+        padding: 10px;
+    }
+    .campaign-report__body-top {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 85px;
+    }
+    .campaign-report__body-top-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .campaign-report__campaign-name {
+        margin-right: 0;
+        order: 1;
+    }
+    .campaign-report__subject {
+        width: auto;
+        order: 2;
+        margin-bottom: 10px;
+    }
+    .campaign-report__sent-on {
+        order: 3;
+    }
+    .campaign-report__data {
+        flex-direction: column;
+    }
+    .campaign-report__image,
+    .campaign-report__numbers,
+    .campaign-report__distributors {
+        width: 90%;
+        margin: 20px auto 0 auto;
+    }
+    .campaign-report__image {
+        max-width: 400px;
+    }
+
+    //campaign creation (email flyer)
+    .campaign__body {
+        display: block;
+        padding: 30px 10px 0;
+    }
+    .campaign__image,
+    .campaign__settings,
+    .campaign__recipients {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .campaign__image {
+        text-align: center;
+        margin-bottom: 20px;
+        img {
+            max-width: 400px;
+        }
+    }
+    .campaign__settings {
+        margin-bottom: 20px;
+    }
+    .campaign__order-price {
+        width: 170px;
+        padding: 0 0 20px 0;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 374px) {
+
+    //campaign creation (email flyer)
+    .campaign__image,
+    .campaign__settings,
+    .campaign__recipients {
+        width: 98%;
+    }
+}
